@@ -1,0 +1,37 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    height: 40px;
+    font: roboto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 34px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+a, .links-right {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
