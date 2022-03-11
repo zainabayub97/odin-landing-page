@@ -67,8 +67,9 @@ section.section-1 {
     background-color: #3882F6;
     color: #E5E7EB;
     width: 150px;
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
+    font-size: 20px;
 }
 
 .hero-main-image {
@@ -86,6 +87,8 @@ section.section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
+    background-color: white;
 }
 
 .information-header-text {
@@ -113,3 +116,32 @@ section.section-2 {
     width: 150px;
     text-align: center;
 }
+
+/* Section 3 */
+
+section.section-3  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 215, 215);
+    height: 350px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 20;
+    font-style: italic;
+    width: 850px;
+}
+
+.author-text {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: -60px;
+}
+
+
+
