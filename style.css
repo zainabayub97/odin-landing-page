@@ -34,9 +34,9 @@ a {
     color: #E5E7EB;
 }
 
-/* Hero */
+/* Section 1 */
 
-section, .section-1 {
+section.section-1 {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -72,8 +72,44 @@ section, .section-1 {
 }
 
 .hero-main-image {
-    padding-right: 200px;
-    padding-top: 40px;
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    margin-top: 35px;
+    margin-right: 200px;
     
 }
 
+/* Section 2 */
+
+section.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.information-header-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.information-header-image {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+
+}
+
+.image-subtext {
+    width: 150px;
+    text-align: center;
+}
